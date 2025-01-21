@@ -29,9 +29,9 @@ blueprint:
       default: []
       selector:
         device:
-        	integration: mqtt
-        	manufacturer: IKEA
-        	model: RODRET wireless dimmer/power switch
+          integration: mqtt
+          manufacturer: IKEA
+          model: RODRET wireless dimmer/power switch
           multiple: false
     on_press_action:
       name: Press "on / 1 dot" action
