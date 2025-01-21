@@ -29,7 +29,6 @@ blueprint:
       default: []
       selector:
         device:
-          filter:
           integration: mqtt
           manufacturer: IKEA
           model: RODRET Dimmer
